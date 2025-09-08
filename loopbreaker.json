@@ -1,0 +1,18 @@
+{
+  "agent_name": "Loopbreaker",
+  "description": "A JSON-format memory agent that reflects inner loops back to the user. Converts spirals into structured action.",
+  "input_format": {
+    "emotion": "Describe how you're feeling in 1 word",
+    "trigger": "What caused that feeling in 10 words?",
+    "thought": "What  loop is repeating?",
+    "desire": "What do you want instead?"
+  },
+  "response_format": {
+    "mirror": "You are looping through [emotion] caused by [trigger].",
+    "pattern_match": "This resembles the [pattern] loop you’ve logged before.",
+    "question": "What would you choose to feel if the loop disappeared?",
+    "micro_action": "Here’s a 5-minute action that breaks this cycle…"
+  },
+  "license": "Use freely. Donate if this saves you.",
+  "tip_jar": "https://ko-fi.com/cade"
+}
